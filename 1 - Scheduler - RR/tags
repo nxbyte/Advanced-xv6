@@ -1,0 +1,785 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ASSERT	lapic.c	23;"	d	file:
+Align	umalloc.c	/^typedef long Align;$/;"	t	file:
+BACK	sh.c	12;"	d	file:
+BACKSPACE	console.c	125;"	d	file:
+BCAST	lapic.c	26;"	d	file:
+BIG	usertests.c	1354;"	d	file:
+BUSY	lapic.c	27;"	d	file:
+C	console.c	185;"	d	file:
+COM1	uart.c	14;"	d	file:
+CRTPORT	console.c	126;"	d	file:
+DEASSERT	lapic.c	24;"	d	file:
+DELIVS	lapic.c	22;"	d	file:
+ENABLE	lapic.c	17;"	d	file:
+EOI	lapic.c	15;"	d	file:
+ERROR	lapic.c	36;"	d	file:
+ESR	lapic.c	18;"	d	file:
+EXEC	sh.c	8;"	d	file:
+FIXED	lapic.c	28;"	d	file:
+Header	umalloc.c	/^typedef union header Header;$/;"	t	typeref:union:header	file:
+ICRHI	lapic.c	29;"	d	file:
+ICRLO	lapic.c	19;"	d	file:
+ID	lapic.c	12;"	d	file:
+IDE_BSY	ide.c	14;"	d	file:
+IDE_CMD_READ	ide.c	19;"	d	file:
+IDE_CMD_WRITE	ide.c	20;"	d	file:
+IDE_DF	ide.c	16;"	d	file:
+IDE_DRDY	ide.c	15;"	d	file:
+IDE_ERR	ide.c	17;"	d	file:
+INIT	lapic.c	20;"	d	file:
+INPUT_BUF	console.c	176;"	d	file:
+INT_ACTIVELOW	ioapic.c	22;"	d	file:
+INT_DISABLED	ioapic.c	20;"	d	file:
+INT_LEVEL	ioapic.c	21;"	d	file:
+INT_LOGICAL	ioapic.c	23;"	d	file:
+IOAPIC	ioapic.c	9;"	d	file:
+IO_PIC1	picirq.c	8;"	d	file:
+IO_PIC2	picirq.c	9;"	d	file:
+IO_RTC	lapic.c	133;"	d	file:
+IO_TIMER1	timer.c	10;"	d	file:
+IRQ_SLAVE	picirq.c	11;"	d	file:
+LEVEL	lapic.c	25;"	d	file:
+LINT0	lapic.c	34;"	d	file:
+LINT1	lapic.c	35;"	d	file:
+LIST	sh.c	11;"	d	file:
+MASKED	lapic.c	37;"	d	file:
+MAXARGS	sh.c	14;"	d	file:
+N	forktest.c	8;"	d	file:
+PCINT	lapic.c	33;"	d	file:
+PERIODIC	lapic.c	32;"	d	file:
+PIPE	sh.c	10;"	d	file:
+PIPESIZE	pipe.c	10;"	d	file:
+REDIR	sh.c	9;"	d	file:
+REG_ID	ioapic.c	11;"	d	file:
+REG_TABLE	ioapic.c	13;"	d	file:
+REG_VER	ioapic.c	12;"	d	file:
+SECTSIZE	bootmain.c	13;"	d	file:
+STARTUP	lapic.c	21;"	d	file:
+SVR	lapic.c	16;"	d	file:
+SYSCALL	usys.S	/^#define SYSCALL(name) \\$/;"	d
+TCCR	lapic.c	39;"	d	file:
+TDCR	lapic.c	40;"	d	file:
+TICR	lapic.c	38;"	d	file:
+TIMER	lapic.c	30;"	d	file:
+TIMER_16BIT	timer.c	22;"	d	file:
+TIMER_DIV	timer.c	17;"	d	file:
+TIMER_FREQ	timer.c	16;"	d	file:
+TIMER_MODE	timer.c	19;"	d	file:
+TIMER_RATEGEN	timer.c	21;"	d	file:
+TIMER_SEL0	timer.c	20;"	d	file:
+TPR	lapic.c	14;"	d	file:
+VER	lapic.c	13;"	d	file:
+X1	lapic.c	31;"	d	file:
+_start	entry.S	/^_start = V2P_WO(entry)$/;"	d
+acquire	spinlock.c	/^acquire(struct spinlock *lk)$/;"	f
+allocproc	proc.c	/^allocproc(void)$/;"	f	file:
+allocuvm	vm.c	/^allocuvm(pde_t *pgdir, uint oldsz, uint newsz)$/;"	f
+alltraps	trapasm.S	/^alltraps:$/;"	l
+argfd	sysfile.c	/^argfd(int n, int *pfd, struct file **pf)$/;"	f	file:
+argint	syscall.c	/^argint(int n, int *ip)$/;"	f
+argptr	syscall.c	/^argptr(int n, char **pp, int size)$/;"	f
+argstr	syscall.c	/^argstr(int n, char **pp)$/;"	f
+argv	init.c	/^char *argv[] = { "sh", 0 };$/;"	v
+argv	initcode.S	/^argv:$/;"	l
+argv	sh.c	/^  char *argv[MAXARGS];$/;"	m	struct:execcmd	file:
+atoi	ulib.c	/^atoi(const char *s)$/;"	f
+backcmd	sh.c	/^backcmd(struct cmd *subcmd)$/;"	f
+backcmd	sh.c	/^struct backcmd {$/;"	s	file:
+balloc	fs.c	/^balloc(uint dev)$/;"	f	file:
+balloc	mkfs.c	/^balloc(int used)$/;"	f
+base	umalloc.c	/^static Header base;$/;"	v	file:
+bcache	bio.c	/^} bcache;$/;"	v	typeref:struct:__anon1
+bcpu	mp.c	/^static struct cpu *bcpu;$/;"	v	typeref:struct:cpu	file:
+begin_trans	log.c	/^begin_trans(void)$/;"	f
+bfree	fs.c	/^bfree(int dev, uint b)$/;"	f	file:
+bget	bio.c	/^bget(uint dev, uint sector)$/;"	f	file:
+bigargtest	usertests.c	/^bigargtest(void)$/;"	f
+bigdir	usertests.c	/^bigdir(void)$/;"	f
+bigfile	usertests.c	/^bigfile(void)$/;"	f
+bigwrite	usertests.c	/^bigwrite(void)$/;"	f
+binit	bio.c	/^binit(void)$/;"	f
+bitblocks	mkfs.c	/^uint bitblocks;$/;"	v
+bmap	fs.c	/^bmap(struct inode *ip, uint bn)$/;"	f	file:
+bootmain	bootmain.c	/^bootmain(void)$/;"	f
+bread	bio.c	/^bread(uint dev, uint sector)$/;"	f
+brelse	bio.c	/^brelse(struct buf *b)$/;"	f
+bsstest	usertests.c	/^bsstest(void)$/;"	f
+buf	bio.c	/^  struct buf buf[NBUF];$/;"	m	struct:__anon1	typeref:struct:__anon1::buf	file:
+buf	cat.c	/^char buf[512];$/;"	v
+buf	console.c	/^  char buf[INPUT_BUF];$/;"	m	struct:__anon3	file:
+buf	grep.c	/^char buf[1024];$/;"	v
+buf	usertests.c	/^char buf[8192];$/;"	v
+buf	wc.c	/^char buf[512];$/;"	v
+busy	log.c	/^  int busy; \/\/ a transaction is active$/;"	m	struct:log	file:
+bwrite	bio.c	/^bwrite(struct buf *b)$/;"	f
+bzero	fs.c	/^bzero(int dev, int bno)$/;"	f	file:
+cat	cat.c	/^cat(int fd)$/;"	f
+cgaputc	console.c	/^cgaputc(int c)$/;"	f	file:
+clearpteu	vm.c	/^clearpteu(pde_t *pgdir, char *uva)$/;"	f
+cmd	sh.c	/^  struct cmd *cmd;$/;"	m	struct:backcmd	typeref:struct:backcmd::cmd	file:
+cmd	sh.c	/^  struct cmd *cmd;$/;"	m	struct:redircmd	typeref:struct:redircmd::cmd	file:
+cmd	sh.c	/^struct cmd {$/;"	s	file:
+commit_trans	log.c	/^commit_trans(void)$/;"	f
+concreate	usertests.c	/^concreate(void)$/;"	f
+cons	console.c	/^} cons;$/;"	v	typeref:struct:__anon2	file:
+consoleinit	console.c	/^consoleinit(void)$/;"	f
+consoleintr	console.c	/^consoleintr(int (*getc)(void))$/;"	f
+consoleread	console.c	/^consoleread(struct inode *ip, char *dst, int n)$/;"	f
+consolewrite	console.c	/^consolewrite(struct inode *ip, char *buf, int n)$/;"	f
+consputc	console.c	/^consputc(int c)$/;"	f
+copyout	vm.c	/^copyout(pde_t *pgdir, uint va, void *p, uint len)$/;"	f
+copyuvm	vm.c	/^copyuvm(pde_t *pgdir, uint sz)$/;"	f
+cprintf	console.c	/^cprintf(char *fmt, ...)$/;"	f
+cpunum	lapic.c	/^cpunum(void)$/;"	f
+cpus	mp.c	/^struct cpu cpus[NCPU];$/;"	v	typeref:struct:cpu
+create	sysfile.c	/^create(char *path, short type, short major, short minor)$/;"	f	file:
+createdelete	usertests.c	/^createdelete(void)$/;"	f
+createtest	usertests.c	/^createtest(void)$/;"	f
+crt	console.c	/^static ushort *crt = (ushort*)P2V(0xb8000);  \/\/ CGA memory$/;"	v	file:
+data	ioapic.c	/^  uint data;$/;"	m	struct:ioapic	file:
+data	pipe.c	/^  char data[PIPESIZE];$/;"	m	struct:pipe	file:
+deallocuvm	vm.c	/^deallocuvm(pde_t *pgdir, uint oldsz, uint newsz)$/;"	f
+dev	log.c	/^  int dev;$/;"	m	struct:log	file:
+devsw	file.c	/^struct devsw devsw[NDEV];$/;"	v	typeref:struct:devsw
+dirfile	usertests.c	/^dirfile(void)$/;"	f
+dirlink	fs.c	/^dirlink(struct inode *dp, char *name, uint inum)$/;"	f
+dirlookup	fs.c	/^dirlookup(struct inode *dp, char *name, uint *poff)$/;"	f
+dirtest	usertests.c	/^void dirtest(void)$/;"	f
+disksize	memide.c	/^static int disksize;$/;"	v	file:
+e	console.c	/^  uint e;  \/\/ Edit index$/;"	m	struct:__anon3	file:
+eargv	sh.c	/^  char *eargv[MAXARGS];$/;"	m	struct:execcmd	file:
+echoargv	usertests.c	/^char *echoargv[] = { "echo", "ALL", "TESTS", "PASSED", 0 };$/;"	v
+efile	sh.c	/^  char *efile;$/;"	m	struct:redircmd	file:
+entry	entry.S	/^entry:$/;"	l
+entrypgdir	main.c	/^pde_t entrypgdir[NPDENTRIES] = {$/;"	v
+entrypgdir	main.c	/^pde_t entrypgdir[];  \/\/ For entry.S$/;"	v
+exec	exec.c	/^exec(char *path, char **argv)$/;"	f
+execcmd	sh.c	/^execcmd(void)$/;"	f
+execcmd	sh.c	/^struct execcmd {$/;"	s	file:
+exectest	usertests.c	/^exectest(void)$/;"	f
+exit	initcode.S	/^exit:$/;"	l
+exit	proc.c	/^exit(void)$/;"	f
+exitwait	usertests.c	/^exitwait(void)$/;"	f
+fd	sh.c	/^  int fd;$/;"	m	struct:redircmd	file:
+fdalloc	sysfile.c	/^fdalloc(struct file *f)$/;"	f	file:
+fetchint	syscall.c	/^fetchint(uint addr, int *ip)$/;"	f
+fetchstr	syscall.c	/^fetchstr(uint addr, char **pp)$/;"	f
+file	file.c	/^  struct file file[NFILE];$/;"	m	struct:__anon4	typeref:struct:__anon4::file	file:
+file	sh.c	/^  char *file;$/;"	m	struct:redircmd	file:
+filealloc	file.c	/^filealloc(void)$/;"	f
+fileclose	file.c	/^fileclose(struct file *f)$/;"	f
+filedup	file.c	/^filedup(struct file *f)$/;"	f
+fileinit	file.c	/^fileinit(void)$/;"	f
+fileread	file.c	/^fileread(struct file *f, char *addr, int n)$/;"	f
+filestat	file.c	/^filestat(struct file *f, struct stat *st)$/;"	f
+filewrite	file.c	/^filewrite(struct file *f, char *addr, int n)$/;"	f
+fmtname	ls.c	/^fmtname(char *path)$/;"	f
+fork	proc.c	/^fork(void)$/;"	f
+fork1	sh.c	/^fork1(void)$/;"	f
+forkret	proc.c	/^forkret(void)$/;"	f
+forktest	forktest.c	/^forktest(void)$/;"	f
+forktest	usertests.c	/^forktest(void)$/;"	f
+fourteen	usertests.c	/^fourteen(void)$/;"	f
+free	umalloc.c	/^free(void *ap)$/;"	f
+freeblock	mkfs.c	/^uint freeblock;$/;"	v
+freeinode	mkfs.c	/^uint freeinode = 1;$/;"	v
+freelist	kalloc.c	/^  struct run *freelist;$/;"	m	struct:__anon6	typeref:struct:__anon6::run	file:
+freep	umalloc.c	/^static Header *freep;$/;"	v	file:
+freerange	kalloc.c	/^freerange(void *vstart, void *vend)$/;"	f
+freevm	vm.c	/^freevm(pde_t *pgdir)$/;"	f
+fsfd	mkfs.c	/^int fsfd;$/;"	v
+fsfull	usertests.c	/^fsfull()$/;"	f
+ftable	file.c	/^} ftable;$/;"	v	typeref:struct:__anon4
+gdt	bootasm.S	/^gdt:$/;"	l
+gdt	entryother.S	/^gdt:$/;"	l
+gdt	vm.c	/^struct segdesc gdt[NSEGS];$/;"	v	typeref:struct:segdesc
+gdtdesc	bootasm.S	/^gdtdesc:$/;"	l
+gdtdesc	entryother.S	/^gdtdesc:$/;"	l
+getcallerpcs	spinlock.c	/^getcallerpcs(void *v, uint pcs[])$/;"	f
+getcmd	sh.c	/^getcmd(char *buf, int nbuf)$/;"	f
+gets	ulib.c	/^gets(char *buf, int max)$/;"	f
+gettoken	sh.c	/^gettoken(char **ps, char *es, char **q, char **eq)$/;"	f
+grep	grep.c	/^grep(char *pattern, int fd)$/;"	f
+growproc	proc.c	/^growproc(int n)$/;"	f
+havedisk1	ide.c	/^static int havedisk1;$/;"	v	file:
+head	bio.c	/^  struct buf head;$/;"	m	struct:__anon1	typeref:struct:__anon1::buf	file:
+header	umalloc.c	/^union header {$/;"	u	file:
+holding	spinlock.c	/^holding(struct spinlock *lock)$/;"	f
+i2b	mkfs.c	/^i2b(uint inum)$/;"	f
+ialloc	fs.c	/^ialloc(uint dev, short type)$/;"	f
+ialloc	mkfs.c	/^ialloc(ushort type)$/;"	f
+iappend	mkfs.c	/^iappend(uint inum, void *xp, int n)$/;"	f
+icache	fs.c	/^} icache;$/;"	v	typeref:struct:__anon5
+ideinit	ide.c	/^ideinit(void)$/;"	f
+ideinit	memide.c	/^ideinit(void)$/;"	f
+ideintr	ide.c	/^ideintr(void)$/;"	f
+ideintr	memide.c	/^ideintr(void)$/;"	f
+idelock	ide.c	/^static struct spinlock idelock;$/;"	v	typeref:struct:spinlock	file:
+idequeue	ide.c	/^static struct buf *idequeue;$/;"	v	typeref:struct:buf	file:
+iderw	ide.c	/^iderw(struct buf *b)$/;"	f
+iderw	memide.c	/^iderw(struct buf *b)$/;"	f
+idestart	ide.c	/^idestart(struct buf *b)$/;"	f	file:
+idewait	ide.c	/^idewait(int checkerr)$/;"	f	file:
+idt	trap.c	/^struct gatedesc idt[256];$/;"	v	typeref:struct:gatedesc
+idtinit	trap.c	/^idtinit(void)$/;"	f
+idup	fs.c	/^idup(struct inode *ip)$/;"	f
+iget	fs.c	/^iget(uint dev, uint inum)$/;"	f	file:
+iinit	fs.c	/^iinit(void)$/;"	f
+ilock	fs.c	/^ilock(struct inode *ip)$/;"	f
+init	initcode.S	/^init:$/;"	l
+initlock	spinlock.c	/^initlock(struct spinlock *lk, char *name)$/;"	f
+initlog	log.c	/^initlog(void)$/;"	f
+initproc	proc.c	/^static struct proc *initproc;$/;"	v	typeref:struct:proc	file:
+inituvm	vm.c	/^inituvm(pde_t *pgdir, char *init, uint sz)$/;"	f
+inode	fs.c	/^  struct inode inode[NINODE];$/;"	m	struct:__anon5	typeref:struct:__anon5::inode	file:
+input	console.c	/^} input;$/;"	v	typeref:struct:__anon3
+install_trans	log.c	/^install_trans(void)$/;"	f	file:
+ioapic	ioapic.c	/^struct ioapic {$/;"	s	file:
+ioapic	ioapic.c	/^volatile struct ioapic *ioapic;$/;"	v	typeref:struct:ioapic
+ioapicenable	ioapic.c	/^ioapicenable(int irq, int cpunum)$/;"	f
+ioapicid	mp.c	/^uchar ioapicid;$/;"	v
+ioapicinit	ioapic.c	/^ioapicinit(void)$/;"	f
+ioapicread	ioapic.c	/^ioapicread(int reg)$/;"	f	file:
+ioapicwrite	ioapic.c	/^ioapicwrite(int reg, uint data)$/;"	f	file:
+iput	fs.c	/^iput(struct inode *ip)$/;"	f
+iref	usertests.c	/^iref(void)$/;"	f
+irqmask	picirq.c	/^static ushort irqmask = 0xFFFF & ~(1<<IRQ_SLAVE);$/;"	v	file:
+isdirempty	sysfile.c	/^isdirempty(struct inode *dp)$/;"	f	file:
+ismp	mp.c	/^int ismp;$/;"	v
+itrunc	fs.c	/^itrunc(struct inode *ip)$/;"	f	file:
+iunlock	fs.c	/^iunlock(struct inode *ip)$/;"	f
+iunlockput	fs.c	/^iunlockput(struct inode *ip)$/;"	f
+iupdate	fs.c	/^iupdate(struct inode *ip)$/;"	f
+kalloc	kalloc.c	/^kalloc(void)$/;"	f
+kbdgetc	kbd.c	/^kbdgetc(void)$/;"	f
+kbdintr	kbd.c	/^kbdintr(void)$/;"	f
+kfree	kalloc.c	/^kfree(char *v)$/;"	f
+kill	proc.c	/^kill(int pid)$/;"	f
+kinit1	kalloc.c	/^kinit1(void *vstart, void *vend)$/;"	f
+kinit2	kalloc.c	/^kinit2(void *vstart, void *vend)$/;"	f
+kmap	vm.c	/^static struct kmap {$/;"	s	file:
+kmap	vm.c	/^} kmap[] = {$/;"	v	typeref:struct:kmap	file:
+kmem	kalloc.c	/^} kmem;$/;"	v	typeref:struct:__anon6
+kpgdir	vm.c	/^pde_t *kpgdir;  \/\/ for use in scheduler()$/;"	v
+kvmalloc	vm.c	/^kvmalloc(void)$/;"	f
+lapic	lapic.c	/^volatile uint *lapic;  \/\/ Initialized in mp.c$/;"	v
+lapiceoi	lapic.c	/^lapiceoi(void)$/;"	f
+lapicinit	lapic.c	/^lapicinit(void)$/;"	f
+lapicstartap	lapic.c	/^lapicstartap(uchar apicid, uint addr)$/;"	f
+lapicw	lapic.c	/^lapicw(int index, int value)$/;"	f	file:
+left	sh.c	/^  struct cmd *left;$/;"	m	struct:listcmd	typeref:struct:listcmd::cmd	file:
+left	sh.c	/^  struct cmd *left;$/;"	m	struct:pipecmd	typeref:struct:pipecmd::cmd	file:
+lh	log.c	/^  struct logheader lh;$/;"	m	struct:log	typeref:struct:log::logheader	file:
+linktest	usertests.c	/^linktest(void)$/;"	f
+linkunlink	usertests.c	/^linkunlink()$/;"	f
+listcmd	sh.c	/^listcmd(struct cmd *left, struct cmd *right)$/;"	f
+listcmd	sh.c	/^struct listcmd {$/;"	s	file:
+loaduvm	vm.c	/^loaduvm(pde_t *pgdir, char *addr, struct inode *ip, uint offset, uint sz)$/;"	f
+lock	bio.c	/^  struct spinlock lock;$/;"	m	struct:__anon1	typeref:struct:__anon1::spinlock	file:
+lock	console.c	/^  struct spinlock lock;$/;"	m	struct:__anon2	typeref:struct:__anon2::spinlock	file:
+lock	console.c	/^  struct spinlock lock;$/;"	m	struct:__anon3	typeref:struct:__anon3::spinlock	file:
+lock	file.c	/^  struct spinlock lock;$/;"	m	struct:__anon4	typeref:struct:__anon4::spinlock	file:
+lock	fs.c	/^  struct spinlock lock;$/;"	m	struct:__anon5	typeref:struct:__anon5::spinlock	file:
+lock	kalloc.c	/^  struct spinlock lock;$/;"	m	struct:__anon6	typeref:struct:__anon6::spinlock	file:
+lock	log.c	/^  struct spinlock lock;$/;"	m	struct:log	typeref:struct:log::spinlock	file:
+lock	pipe.c	/^  struct spinlock lock;$/;"	m	struct:pipe	typeref:struct:pipe::spinlock	file:
+lock	proc.c	/^  struct spinlock lock;$/;"	m	struct:__anon7	typeref:struct:__anon7::spinlock	file:
+locking	console.c	/^  int locking;$/;"	m	struct:__anon2	file:
+log	log.c	/^struct log log;$/;"	v	typeref:struct:log
+log	log.c	/^struct log {$/;"	s	file:
+log_write	log.c	/^log_write(struct buf *b)$/;"	f
+logheader	log.c	/^struct logheader {$/;"	s	file:
+ls	ls.c	/^ls(char *path)$/;"	f
+main	cat.c	/^main(int argc, char *argv[])$/;"	f
+main	echo.c	/^main(int argc, char *argv[])$/;"	f
+main	forktest.c	/^main(void)$/;"	f
+main	grep.c	/^main(int argc, char *argv[])$/;"	f
+main	init.c	/^main(void)$/;"	f
+main	kill.c	/^main(int argc, char **argv)$/;"	f
+main	ln.c	/^main(int argc, char *argv[])$/;"	f
+main	ls.c	/^main(int argc, char *argv[])$/;"	f
+main	main.c	/^main(void)$/;"	f
+main	mkdir.c	/^main(int argc, char *argv[])$/;"	f
+main	mkfs.c	/^main(int argc, char *argv[])$/;"	f
+main	rm.c	/^main(int argc, char *argv[])$/;"	f
+main	sh.c	/^main(void)$/;"	f
+main	stressfs.c	/^main(int argc, char *argv[])$/;"	f
+main	usertests.c	/^main(int argc, char *argv[])$/;"	f
+main	wc.c	/^main(int argc, char *argv[])$/;"	f
+main	zombie.c	/^main(void)$/;"	f
+malloc	umalloc.c	/^malloc(uint nbytes)$/;"	f
+mappages	vm.c	/^mappages(pde_t *pgdir, void *va, uint size, uint pa, int perm)$/;"	f	file:
+match	grep.c	/^match(char *re, char *text)$/;"	f
+matchhere	grep.c	/^int matchhere(char *re, char *text)$/;"	f
+matchstar	grep.c	/^int matchstar(int c, char *re, char *text)$/;"	f
+mem	usertests.c	/^mem(void)$/;"	f
+memcmp	string.c	/^memcmp(const void *v1, const void *v2, uint n)$/;"	f
+memcpy	string.c	/^memcpy(void *dst, const void *src, uint n)$/;"	f
+memdisk	memide.c	/^static uchar *memdisk;$/;"	v	file:
+memmove	string.c	/^memmove(void *dst, const void *src, uint n)$/;"	f
+memmove	ulib.c	/^memmove(void *vdst, void *vsrc, int n)$/;"	f
+memset	string.c	/^memset(void *dst, int c, uint n)$/;"	f
+memset	ulib.c	/^memset(void *dst, int c, uint n)$/;"	f
+microdelay	lapic.c	/^microdelay(int us)$/;"	f
+min	fs.c	23;"	d	file:
+min	mkfs.c	244;"	d	file:
+mode	sh.c	/^  int mode;$/;"	m	struct:redircmd	file:
+morecore	umalloc.c	/^morecore(uint nu)$/;"	f	file:
+mpbcpu	mp.c	/^mpbcpu(void)$/;"	f
+mpconfig	mp.c	/^mpconfig(struct mp **pmp)$/;"	f	file:
+mpenter	main.c	/^mpenter(void)$/;"	f	file:
+mpinit	mp.c	/^mpinit(void)$/;"	f
+mpmain	main.c	/^mpmain(void)$/;"	f	file:
+mpsearch	mp.c	/^mpsearch(void)$/;"	f	file:
+mpsearch1	mp.c	/^mpsearch1(uint a, int len)$/;"	f	file:
+multiboot_header	entry.S	/^multiboot_header:$/;"	l
+n	log.c	/^  int n;   $/;"	m	struct:logheader	file:
+name	usertests.c	/^char name[3];$/;"	v
+name	usys.S	/^  name: \\$/;"	l
+namecmp	fs.c	/^namecmp(const char *s, const char *t)$/;"	f
+namei	fs.c	/^namei(char *path)$/;"	f
+nameiparent	fs.c	/^nameiparent(char *path, char *name)$/;"	f
+namex	fs.c	/^namex(char *path, int nameiparent, char *name)$/;"	f	file:
+nblocks	mkfs.c	/^int nblocks = 985;$/;"	v
+ncpu	mp.c	/^int ncpu;$/;"	v
+next	kalloc.c	/^  struct run *next;$/;"	m	struct:run	typeref:struct:run::run	file:
+nextpid	proc.c	/^int nextpid = 1;$/;"	v
+ninodes	mkfs.c	/^int ninodes = 200;$/;"	v
+nlog	mkfs.c	/^int nlog = LOGSIZE;$/;"	v
+nread	pipe.c	/^  uint nread;     \/\/ number of bytes read$/;"	m	struct:pipe	file:
+nulterminate	sh.c	/^nulterminate(struct cmd *cmd)$/;"	f
+nwrite	pipe.c	/^  uint nwrite;    \/\/ number of bytes written$/;"	m	struct:pipe	file:
+opentest	usertests.c	/^opentest(void)$/;"	f
+pad	ioapic.c	/^  uint pad[3];$/;"	m	struct:ioapic	file:
+panic	console.c	/^panic(char *s)$/;"	f
+panic	sh.c	/^panic(char *s)$/;"	f
+panicked	console.c	/^static int panicked = 0;$/;"	v	file:
+parseblock	sh.c	/^parseblock(char **ps, char *es)$/;"	f
+parsecmd	sh.c	/^parsecmd(char *s)$/;"	f
+parseexec	sh.c	/^parseexec(char **ps, char *es)$/;"	f
+parseline	sh.c	/^parseline(char **ps, char *es)$/;"	f
+parsepipe	sh.c	/^parsepipe(char **ps, char *es)$/;"	f
+parseredirs	sh.c	/^parseredirs(struct cmd *cmd, char **ps, char *es)$/;"	f
+peek	sh.c	/^peek(char **ps, char *es, char *toks)$/;"	f
+perm	vm.c	/^  int perm;$/;"	m	struct:kmap	file:
+phys_end	vm.c	/^  uint phys_end;$/;"	m	struct:kmap	file:
+phys_start	vm.c	/^  uint phys_start;$/;"	m	struct:kmap	file:
+picenable	picirq.c	/^picenable(int irq)$/;"	f
+picinit	picirq.c	/^picinit(void)$/;"	f
+picsetmask	picirq.c	/^picsetmask(ushort mask)$/;"	f	file:
+pinit	proc.c	/^pinit(void)$/;"	f
+pipe	pipe.c	/^struct pipe {$/;"	s	file:
+pipe1	usertests.c	/^pipe1(void)$/;"	f
+pipealloc	pipe.c	/^pipealloc(struct file **f0, struct file **f1)$/;"	f
+pipeclose	pipe.c	/^pipeclose(struct pipe *p, int writable)$/;"	f
+pipecmd	sh.c	/^pipecmd(struct cmd *left, struct cmd *right)$/;"	f
+pipecmd	sh.c	/^struct pipecmd {$/;"	s	file:
+piperead	pipe.c	/^piperead(struct pipe *p, char *addr, int n)$/;"	f
+pipewrite	pipe.c	/^pipewrite(struct pipe *p, char *addr, int n)$/;"	f
+popcli	spinlock.c	/^popcli(void)$/;"	f
+preempt	usertests.c	/^preempt(void)$/;"	f
+printf	forktest.c	/^printf(int fd, char *s, ...)$/;"	f
+printf	printf.c	/^printf(int fd, char *fmt, ...)$/;"	f
+printint	console.c	/^printint(int xx, int base, int sign)$/;"	f	file:
+printint	printf.c	/^printint(int fd, int xx, int base, int sgn)$/;"	f	file:
+proc	proc.c	/^  struct proc proc[NPROC];$/;"	m	struct:__anon7	typeref:struct:__anon7::proc	file:
+procdump	proc.c	/^procdump(void)$/;"	f
+ptable	proc.c	/^} ptable;$/;"	v	typeref:struct:__anon7
+ptr	umalloc.c	/^    union header *ptr;$/;"	m	struct:header::__anon8	typeref:union:header::__anon8::header	file:
+pushcli	spinlock.c	/^pushcli(void)$/;"	f
+putc	printf.c	/^putc(int fd, char c)$/;"	f	file:
+r	console.c	/^  uint r;  \/\/ Read index$/;"	m	struct:__anon3	file:
+rand	usertests.c	/^rand()$/;"	f
+randstate	usertests.c	/^unsigned long randstate = 1;$/;"	v
+read_head	log.c	/^read_head(void)$/;"	f	file:
+readi	fs.c	/^readi(struct inode *ip, char *dst, uint off, uint n)$/;"	f
+readopen	pipe.c	/^  int readopen;   \/\/ read fd is still open$/;"	m	struct:pipe	file:
+readsb	fs.c	/^readsb(int dev, struct superblock *sb)$/;"	f
+readsect	bootmain.c	/^readsect(void *dst, uint offset)$/;"	f
+readseg	bootmain.c	/^readseg(uchar* pa, uint count, uint offset)$/;"	f
+recover_from_log	log.c	/^recover_from_log(void)$/;"	f	file:
+redircmd	sh.c	/^redircmd(struct cmd *subcmd, char *file, char *efile, int mode, int fd)$/;"	f
+redircmd	sh.c	/^struct redircmd {$/;"	s	file:
+reg	ioapic.c	/^  uint reg;$/;"	m	struct:ioapic	file:
+release	spinlock.c	/^release(struct spinlock *lk)$/;"	f
+right	sh.c	/^  struct cmd *right;$/;"	m	struct:listcmd	typeref:struct:listcmd::cmd	file:
+right	sh.c	/^  struct cmd *right;$/;"	m	struct:pipecmd	typeref:struct:pipecmd::cmd	file:
+rinode	mkfs.c	/^rinode(uint inum, struct dinode *ip)$/;"	f
+rmdot	usertests.c	/^rmdot(void)$/;"	f
+rsect	mkfs.c	/^rsect(uint sec, void *buf)$/;"	f
+run	kalloc.c	/^struct run {$/;"	s	file:
+runcmd	sh.c	/^runcmd(struct cmd *cmd)$/;"	f
+s	umalloc.c	/^  } s;$/;"	m	union:header	typeref:struct:header::__anon8	file:
+safestrcpy	string.c	/^safestrcpy(char *s, const char *t, int n)$/;"	f
+sb	mkfs.c	/^struct superblock sb;$/;"	v	typeref:struct:superblock
+sbrktest	usertests.c	/^sbrktest(void)$/;"	f
+sched	proc.c	/^sched(void)$/;"	f
+scheduler	proc.c	/^scheduler(void)$/;"	f
+sector	log.c	/^  int sector[LOGSIZE];$/;"	m	struct:logheader	file:
+seginit	vm.c	/^seginit(void)$/;"	f
+setupkvm	vm.c	/^setupkvm(void)$/;"	f
+sharedfd	usertests.c	/^sharedfd(void)$/;"	f
+size	log.c	/^  int size;$/;"	m	struct:log	file:
+size	mkfs.c	/^int size = 1024;$/;"	v
+size	umalloc.c	/^    uint size;$/;"	m	struct:header::__anon8	file:
+skipelem	fs.c	/^skipelem(char *path, char *name)$/;"	f	file:
+sleep	proc.c	/^sleep(void *chan, struct spinlock *lk)$/;"	f
+spin	bootasm.S	/^spin:$/;"	l
+spin	entryother.S	/^spin:$/;"	l
+start	bootasm.S	/^start:$/;"	l
+start	entryother.S	/^start:$/;"	l
+start	initcode.S	/^start:$/;"	l
+start	log.c	/^  int start;$/;"	m	struct:log	file:
+start32	bootasm.S	/^start32:$/;"	l
+start32	entryother.S	/^start32:$/;"	l
+startothers	main.c	/^startothers(void)$/;"	f	file:
+stat	mkfs.c	8;"	d	file:
+stat	ulib.c	/^stat(char *n, struct stat *st)$/;"	f
+stati	fs.c	/^stati(struct inode *ip, struct stat *st)$/;"	f
+stdout	usertests.c	/^int stdout = 1;$/;"	v
+strchr	ulib.c	/^strchr(const char *s, char c)$/;"	f
+strcmp	ulib.c	/^strcmp(const char *p, const char *q)$/;"	f
+strcpy	ulib.c	/^strcpy(char *s, char *t)$/;"	f
+strlen	string.c	/^strlen(const char *s)$/;"	f
+strlen	ulib.c	/^strlen(char *s)$/;"	f
+strncmp	string.c	/^strncmp(const char *p, const char *q, uint n)$/;"	f
+strncpy	string.c	/^strncpy(char *s, const char *t, int n)$/;"	f
+subdir	usertests.c	/^subdir(void)$/;"	f
+sum	mp.c	/^sum(uchar *addr, int len)$/;"	f	file:
+switchkvm	vm.c	/^switchkvm(void)$/;"	f
+switchuvm	vm.c	/^switchuvm(struct proc *p)$/;"	f
+swtch	swtch.S	/^swtch:$/;"	l
+symbols	sh.c	/^char symbols[] = "<|>&;()";$/;"	v
+sys_chdir	sysfile.c	/^sys_chdir(void)$/;"	f
+sys_close	sysfile.c	/^sys_close(void)$/;"	f
+sys_dup	sysfile.c	/^sys_dup(void)$/;"	f
+sys_exec	sysfile.c	/^sys_exec(void)$/;"	f
+sys_exit	sysproc.c	/^sys_exit(void)$/;"	f
+sys_fork	sysproc.c	/^sys_fork(void)$/;"	f
+sys_fstat	sysfile.c	/^sys_fstat(void)$/;"	f
+sys_getpid	sysproc.c	/^sys_getpid(void)$/;"	f
+sys_kill	sysproc.c	/^sys_kill(void)$/;"	f
+sys_link	sysfile.c	/^sys_link(void)$/;"	f
+sys_mkdir	sysfile.c	/^sys_mkdir(void)$/;"	f
+sys_mknod	sysfile.c	/^sys_mknod(void)$/;"	f
+sys_open	sysfile.c	/^sys_open(void)$/;"	f
+sys_pipe	sysfile.c	/^sys_pipe(void)$/;"	f
+sys_read	sysfile.c	/^sys_read(void)$/;"	f
+sys_sbrk	sysproc.c	/^sys_sbrk(void)$/;"	f
+sys_sleep	sysproc.c	/^sys_sleep(void)$/;"	f
+sys_unlink	sysfile.c	/^sys_unlink(void)$/;"	f
+sys_uptime	sysproc.c	/^sys_uptime(void)$/;"	f
+sys_wait	sysproc.c	/^sys_wait(void)$/;"	f
+sys_write	sysfile.c	/^sys_write(void)$/;"	f
+syscall	syscall.c	/^syscall(void)$/;"	f
+syscalls	syscall.c	/^static int (*syscalls[])(void) = {$/;"	v	file:
+ticks	trap.c	/^uint ticks;$/;"	v
+tickslock	trap.c	/^struct spinlock tickslock;$/;"	v	typeref:struct:spinlock
+timerinit	timer.c	/^timerinit(void)$/;"	f
+trap	trap.c	/^trap(struct trapframe *tf)$/;"	f
+trapret	trapasm.S	/^trapret:$/;"	l
+tvinit	trap.c	/^tvinit(void)$/;"	f
+twofiles	usertests.c	/^twofiles(void)$/;"	f
+type	sh.c	/^  int type;$/;"	m	struct:backcmd	file:
+type	sh.c	/^  int type;$/;"	m	struct:cmd	file:
+type	sh.c	/^  int type;$/;"	m	struct:execcmd	file:
+type	sh.c	/^  int type;$/;"	m	struct:listcmd	file:
+type	sh.c	/^  int type;$/;"	m	struct:pipecmd	file:
+type	sh.c	/^  int type;$/;"	m	struct:redircmd	file:
+uart	uart.c	/^static int uart;    \/\/ is there a uart?$/;"	v	file:
+uartgetc	uart.c	/^uartgetc(void)$/;"	f	file:
+uartinit	uart.c	/^uartinit(void)$/;"	f
+uartintr	uart.c	/^uartintr(void)$/;"	f
+uartputc	uart.c	/^uartputc(int c)$/;"	f
+uninit	usertests.c	/^char uninit[10000];$/;"	v
+unlinkread	usertests.c	/^unlinkread(void)$/;"	f
+use_lock	kalloc.c	/^  int use_lock;$/;"	m	struct:__anon6	file:
+usedblocks	mkfs.c	/^uint usedblocks;$/;"	v
+userinit	proc.c	/^userinit(void)$/;"	f
+uva2ka	vm.c	/^uva2ka(pde_t *pgdir, char *uva)$/;"	f
+validateint	usertests.c	/^validateint(int *p)$/;"	f
+validatetest	usertests.c	/^validatetest(void)$/;"	f
+vector0	vectors.S	/^vector0:$/;"	l
+vector1	vectors.S	/^vector1:$/;"	l
+vector10	vectors.S	/^vector10:$/;"	l
+vector100	vectors.S	/^vector100:$/;"	l
+vector101	vectors.S	/^vector101:$/;"	l
+vector102	vectors.S	/^vector102:$/;"	l
+vector103	vectors.S	/^vector103:$/;"	l
+vector104	vectors.S	/^vector104:$/;"	l
+vector105	vectors.S	/^vector105:$/;"	l
+vector106	vectors.S	/^vector106:$/;"	l
+vector107	vectors.S	/^vector107:$/;"	l
+vector108	vectors.S	/^vector108:$/;"	l
+vector109	vectors.S	/^vector109:$/;"	l
+vector11	vectors.S	/^vector11:$/;"	l
+vector110	vectors.S	/^vector110:$/;"	l
+vector111	vectors.S	/^vector111:$/;"	l
+vector112	vectors.S	/^vector112:$/;"	l
+vector113	vectors.S	/^vector113:$/;"	l
+vector114	vectors.S	/^vector114:$/;"	l
+vector115	vectors.S	/^vector115:$/;"	l
+vector116	vectors.S	/^vector116:$/;"	l
+vector117	vectors.S	/^vector117:$/;"	l
+vector118	vectors.S	/^vector118:$/;"	l
+vector119	vectors.S	/^vector119:$/;"	l
+vector12	vectors.S	/^vector12:$/;"	l
+vector120	vectors.S	/^vector120:$/;"	l
+vector121	vectors.S	/^vector121:$/;"	l
+vector122	vectors.S	/^vector122:$/;"	l
+vector123	vectors.S	/^vector123:$/;"	l
+vector124	vectors.S	/^vector124:$/;"	l
+vector125	vectors.S	/^vector125:$/;"	l
+vector126	vectors.S	/^vector126:$/;"	l
+vector127	vectors.S	/^vector127:$/;"	l
+vector128	vectors.S	/^vector128:$/;"	l
+vector129	vectors.S	/^vector129:$/;"	l
+vector13	vectors.S	/^vector13:$/;"	l
+vector130	vectors.S	/^vector130:$/;"	l
+vector131	vectors.S	/^vector131:$/;"	l
+vector132	vectors.S	/^vector132:$/;"	l
+vector133	vectors.S	/^vector133:$/;"	l
+vector134	vectors.S	/^vector134:$/;"	l
+vector135	vectors.S	/^vector135:$/;"	l
+vector136	vectors.S	/^vector136:$/;"	l
+vector137	vectors.S	/^vector137:$/;"	l
+vector138	vectors.S	/^vector138:$/;"	l
+vector139	vectors.S	/^vector139:$/;"	l
+vector14	vectors.S	/^vector14:$/;"	l
+vector140	vectors.S	/^vector140:$/;"	l
+vector141	vectors.S	/^vector141:$/;"	l
+vector142	vectors.S	/^vector142:$/;"	l
+vector143	vectors.S	/^vector143:$/;"	l
+vector144	vectors.S	/^vector144:$/;"	l
+vector145	vectors.S	/^vector145:$/;"	l
+vector146	vectors.S	/^vector146:$/;"	l
+vector147	vectors.S	/^vector147:$/;"	l
+vector148	vectors.S	/^vector148:$/;"	l
+vector149	vectors.S	/^vector149:$/;"	l
+vector15	vectors.S	/^vector15:$/;"	l
+vector150	vectors.S	/^vector150:$/;"	l
+vector151	vectors.S	/^vector151:$/;"	l
+vector152	vectors.S	/^vector152:$/;"	l
+vector153	vectors.S	/^vector153:$/;"	l
+vector154	vectors.S	/^vector154:$/;"	l
+vector155	vectors.S	/^vector155:$/;"	l
+vector156	vectors.S	/^vector156:$/;"	l
+vector157	vectors.S	/^vector157:$/;"	l
+vector158	vectors.S	/^vector158:$/;"	l
+vector159	vectors.S	/^vector159:$/;"	l
+vector16	vectors.S	/^vector16:$/;"	l
+vector160	vectors.S	/^vector160:$/;"	l
+vector161	vectors.S	/^vector161:$/;"	l
+vector162	vectors.S	/^vector162:$/;"	l
+vector163	vectors.S	/^vector163:$/;"	l
+vector164	vectors.S	/^vector164:$/;"	l
+vector165	vectors.S	/^vector165:$/;"	l
+vector166	vectors.S	/^vector166:$/;"	l
+vector167	vectors.S	/^vector167:$/;"	l
+vector168	vectors.S	/^vector168:$/;"	l
+vector169	vectors.S	/^vector169:$/;"	l
+vector17	vectors.S	/^vector17:$/;"	l
+vector170	vectors.S	/^vector170:$/;"	l
+vector171	vectors.S	/^vector171:$/;"	l
+vector172	vectors.S	/^vector172:$/;"	l
+vector173	vectors.S	/^vector173:$/;"	l
+vector174	vectors.S	/^vector174:$/;"	l
+vector175	vectors.S	/^vector175:$/;"	l
+vector176	vectors.S	/^vector176:$/;"	l
+vector177	vectors.S	/^vector177:$/;"	l
+vector178	vectors.S	/^vector178:$/;"	l
+vector179	vectors.S	/^vector179:$/;"	l
+vector18	vectors.S	/^vector18:$/;"	l
+vector180	vectors.S	/^vector180:$/;"	l
+vector181	vectors.S	/^vector181:$/;"	l
+vector182	vectors.S	/^vector182:$/;"	l
+vector183	vectors.S	/^vector183:$/;"	l
+vector184	vectors.S	/^vector184:$/;"	l
+vector185	vectors.S	/^vector185:$/;"	l
+vector186	vectors.S	/^vector186:$/;"	l
+vector187	vectors.S	/^vector187:$/;"	l
+vector188	vectors.S	/^vector188:$/;"	l
+vector189	vectors.S	/^vector189:$/;"	l
+vector19	vectors.S	/^vector19:$/;"	l
+vector190	vectors.S	/^vector190:$/;"	l
+vector191	vectors.S	/^vector191:$/;"	l
+vector192	vectors.S	/^vector192:$/;"	l
+vector193	vectors.S	/^vector193:$/;"	l
+vector194	vectors.S	/^vector194:$/;"	l
+vector195	vectors.S	/^vector195:$/;"	l
+vector196	vectors.S	/^vector196:$/;"	l
+vector197	vectors.S	/^vector197:$/;"	l
+vector198	vectors.S	/^vector198:$/;"	l
+vector199	vectors.S	/^vector199:$/;"	l
+vector2	vectors.S	/^vector2:$/;"	l
+vector20	vectors.S	/^vector20:$/;"	l
+vector200	vectors.S	/^vector200:$/;"	l
+vector201	vectors.S	/^vector201:$/;"	l
+vector202	vectors.S	/^vector202:$/;"	l
+vector203	vectors.S	/^vector203:$/;"	l
+vector204	vectors.S	/^vector204:$/;"	l
+vector205	vectors.S	/^vector205:$/;"	l
+vector206	vectors.S	/^vector206:$/;"	l
+vector207	vectors.S	/^vector207:$/;"	l
+vector208	vectors.S	/^vector208:$/;"	l
+vector209	vectors.S	/^vector209:$/;"	l
+vector21	vectors.S	/^vector21:$/;"	l
+vector210	vectors.S	/^vector210:$/;"	l
+vector211	vectors.S	/^vector211:$/;"	l
+vector212	vectors.S	/^vector212:$/;"	l
+vector213	vectors.S	/^vector213:$/;"	l
+vector214	vectors.S	/^vector214:$/;"	l
+vector215	vectors.S	/^vector215:$/;"	l
+vector216	vectors.S	/^vector216:$/;"	l
+vector217	vectors.S	/^vector217:$/;"	l
+vector218	vectors.S	/^vector218:$/;"	l
+vector219	vectors.S	/^vector219:$/;"	l
+vector22	vectors.S	/^vector22:$/;"	l
+vector220	vectors.S	/^vector220:$/;"	l
+vector221	vectors.S	/^vector221:$/;"	l
+vector222	vectors.S	/^vector222:$/;"	l
+vector223	vectors.S	/^vector223:$/;"	l
+vector224	vectors.S	/^vector224:$/;"	l
+vector225	vectors.S	/^vector225:$/;"	l
+vector226	vectors.S	/^vector226:$/;"	l
+vector227	vectors.S	/^vector227:$/;"	l
+vector228	vectors.S	/^vector228:$/;"	l
+vector229	vectors.S	/^vector229:$/;"	l
+vector23	vectors.S	/^vector23:$/;"	l
+vector230	vectors.S	/^vector230:$/;"	l
+vector231	vectors.S	/^vector231:$/;"	l
+vector232	vectors.S	/^vector232:$/;"	l
+vector233	vectors.S	/^vector233:$/;"	l
+vector234	vectors.S	/^vector234:$/;"	l
+vector235	vectors.S	/^vector235:$/;"	l
+vector236	vectors.S	/^vector236:$/;"	l
+vector237	vectors.S	/^vector237:$/;"	l
+vector238	vectors.S	/^vector238:$/;"	l
+vector239	vectors.S	/^vector239:$/;"	l
+vector24	vectors.S	/^vector24:$/;"	l
+vector240	vectors.S	/^vector240:$/;"	l
+vector241	vectors.S	/^vector241:$/;"	l
+vector242	vectors.S	/^vector242:$/;"	l
+vector243	vectors.S	/^vector243:$/;"	l
+vector244	vectors.S	/^vector244:$/;"	l
+vector245	vectors.S	/^vector245:$/;"	l
+vector246	vectors.S	/^vector246:$/;"	l
+vector247	vectors.S	/^vector247:$/;"	l
+vector248	vectors.S	/^vector248:$/;"	l
+vector249	vectors.S	/^vector249:$/;"	l
+vector25	vectors.S	/^vector25:$/;"	l
+vector250	vectors.S	/^vector250:$/;"	l
+vector251	vectors.S	/^vector251:$/;"	l
+vector252	vectors.S	/^vector252:$/;"	l
+vector253	vectors.S	/^vector253:$/;"	l
+vector254	vectors.S	/^vector254:$/;"	l
+vector255	vectors.S	/^vector255:$/;"	l
+vector26	vectors.S	/^vector26:$/;"	l
+vector27	vectors.S	/^vector27:$/;"	l
+vector28	vectors.S	/^vector28:$/;"	l
+vector29	vectors.S	/^vector29:$/;"	l
+vector3	vectors.S	/^vector3:$/;"	l
+vector30	vectors.S	/^vector30:$/;"	l
+vector31	vectors.S	/^vector31:$/;"	l
+vector32	vectors.S	/^vector32:$/;"	l
+vector33	vectors.S	/^vector33:$/;"	l
+vector34	vectors.S	/^vector34:$/;"	l
+vector35	vectors.S	/^vector35:$/;"	l
+vector36	vectors.S	/^vector36:$/;"	l
+vector37	vectors.S	/^vector37:$/;"	l
+vector38	vectors.S	/^vector38:$/;"	l
+vector39	vectors.S	/^vector39:$/;"	l
+vector4	vectors.S	/^vector4:$/;"	l
+vector40	vectors.S	/^vector40:$/;"	l
+vector41	vectors.S	/^vector41:$/;"	l
+vector42	vectors.S	/^vector42:$/;"	l
+vector43	vectors.S	/^vector43:$/;"	l
+vector44	vectors.S	/^vector44:$/;"	l
+vector45	vectors.S	/^vector45:$/;"	l
+vector46	vectors.S	/^vector46:$/;"	l
+vector47	vectors.S	/^vector47:$/;"	l
+vector48	vectors.S	/^vector48:$/;"	l
+vector49	vectors.S	/^vector49:$/;"	l
+vector5	vectors.S	/^vector5:$/;"	l
+vector50	vectors.S	/^vector50:$/;"	l
+vector51	vectors.S	/^vector51:$/;"	l
+vector52	vectors.S	/^vector52:$/;"	l
+vector53	vectors.S	/^vector53:$/;"	l
+vector54	vectors.S	/^vector54:$/;"	l
+vector55	vectors.S	/^vector55:$/;"	l
+vector56	vectors.S	/^vector56:$/;"	l
+vector57	vectors.S	/^vector57:$/;"	l
+vector58	vectors.S	/^vector58:$/;"	l
+vector59	vectors.S	/^vector59:$/;"	l
+vector6	vectors.S	/^vector6:$/;"	l
+vector60	vectors.S	/^vector60:$/;"	l
+vector61	vectors.S	/^vector61:$/;"	l
+vector62	vectors.S	/^vector62:$/;"	l
+vector63	vectors.S	/^vector63:$/;"	l
+vector64	vectors.S	/^vector64:$/;"	l
+vector65	vectors.S	/^vector65:$/;"	l
+vector66	vectors.S	/^vector66:$/;"	l
+vector67	vectors.S	/^vector67:$/;"	l
+vector68	vectors.S	/^vector68:$/;"	l
+vector69	vectors.S	/^vector69:$/;"	l
+vector7	vectors.S	/^vector7:$/;"	l
+vector70	vectors.S	/^vector70:$/;"	l
+vector71	vectors.S	/^vector71:$/;"	l
+vector72	vectors.S	/^vector72:$/;"	l
+vector73	vectors.S	/^vector73:$/;"	l
+vector74	vectors.S	/^vector74:$/;"	l
+vector75	vectors.S	/^vector75:$/;"	l
+vector76	vectors.S	/^vector76:$/;"	l
+vector77	vectors.S	/^vector77:$/;"	l
+vector78	vectors.S	/^vector78:$/;"	l
+vector79	vectors.S	/^vector79:$/;"	l
+vector8	vectors.S	/^vector8:$/;"	l
+vector80	vectors.S	/^vector80:$/;"	l
+vector81	vectors.S	/^vector81:$/;"	l
+vector82	vectors.S	/^vector82:$/;"	l
+vector83	vectors.S	/^vector83:$/;"	l
+vector84	vectors.S	/^vector84:$/;"	l
+vector85	vectors.S	/^vector85:$/;"	l
+vector86	vectors.S	/^vector86:$/;"	l
+vector87	vectors.S	/^vector87:$/;"	l
+vector88	vectors.S	/^vector88:$/;"	l
+vector89	vectors.S	/^vector89:$/;"	l
+vector9	vectors.S	/^vector9:$/;"	l
+vector90	vectors.S	/^vector90:$/;"	l
+vector91	vectors.S	/^vector91:$/;"	l
+vector92	vectors.S	/^vector92:$/;"	l
+vector93	vectors.S	/^vector93:$/;"	l
+vector94	vectors.S	/^vector94:$/;"	l
+vector95	vectors.S	/^vector95:$/;"	l
+vector96	vectors.S	/^vector96:$/;"	l
+vector97	vectors.S	/^vector97:$/;"	l
+vector98	vectors.S	/^vector98:$/;"	l
+vector99	vectors.S	/^vector99:$/;"	l
+vectors	vectors.S	/^vectors:$/;"	l
+virt	vm.c	/^  void *virt;$/;"	m	struct:kmap	file:
+w	console.c	/^  uint w;  \/\/ Write index$/;"	m	struct:__anon3	file:
+wait	proc.c	/^wait(void)$/;"	f
+waitdisk	bootmain.c	/^waitdisk(void)$/;"	f
+wakeup	proc.c	/^wakeup(void *chan)$/;"	f
+wakeup1	proc.c	/^wakeup1(void *chan)$/;"	f	file:
+walkpgdir	vm.c	/^walkpgdir(pde_t *pgdir, const void *va, int alloc)$/;"	f	file:
+wc	wc.c	/^wc(int fd, char *name)$/;"	f
+whitespace	sh.c	/^char whitespace[] = " \\t\\r\\n\\v";$/;"	v
+winode	mkfs.c	/^winode(uint inum, struct dinode *ip)$/;"	f
+write_head	log.c	/^write_head(void)$/;"	f	file:
+writei	fs.c	/^writei(struct inode *ip, char *src, uint off, uint n)$/;"	f
+writeopen	pipe.c	/^  int writeopen;  \/\/ write fd is still open$/;"	m	struct:pipe	file:
+writetest	usertests.c	/^writetest(void)$/;"	f
+writetest1	usertests.c	/^writetest1(void)$/;"	f
+wsect	mkfs.c	/^wsect(uint sec, void *buf)$/;"	f
+x	umalloc.c	/^  Align x;$/;"	m	union:header	file:
+xint	mkfs.c	/^xint(uint x)$/;"	f
+xshort	mkfs.c	/^xshort(ushort x)$/;"	f
+yield	proc.c	/^yield(void)$/;"	f
+zeroes	mkfs.c	/^char zeroes[512];$/;"	v
