@@ -2,21 +2,21 @@
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/nextseto/Advanced-xv6/master/LICENSE)
 
-**xv6** is a re-implementation of Dennis Ritchie's and Ken Thompson's Unix Version 6. **Advanced-xv6** is a repository that contains improvements and other modernizations to improve upon the [base implementation](https://github.com/mit-pdos/xv6-public). There are seven versions of xv6 detailed below:
+**xv6** is a re-implementation of Dennis Ritchie's and Ken Thompson's Unix Version 6. **Advanced-xv6** is a repository that contains some modernizations to improve upon the [base implementation](https://github.com/mit-pdos/xv6-public). There are seven versions of xv6 detailed below:
 
-1. Implements a Round-Robin (RR) scheduler in xv6 
+1. Round-Robin (RR) scheduler in xv6 
 
-2. Implements a First-Come-First-Serve (FCFS) scheduler in xv6
+2. First-Come-First-Serve (FCFS) scheduler in xv6
 
-3. Implements a Priority scheduler in xv6
+3. Priority scheduler in xv6
 
-4. Implements the Completely-Fair-Scheduler (CFS) in xv6
+4. Completely-Fair-Scheduler (CFS) in xv6
 
-5. Implements a Doubly-Indirect-Block filesystem in xv6
+5. Doubly-Indirect-Block filesystem in xv6
 
-6. Implements a Triply-Indirect-Block filesystem in xv6
+6. Triply-Indirect-Block filesystem in xv6
 
-7. Implements the Berkley Fast Filesystem (FFS) in xv6
+7. Berkley Fast Filesystem (FFS) in xv6
 
 ## Installation
 
